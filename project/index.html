@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-container">
+        <header>
+            <h1>Tasks</h1>
+        </header>
+        
+        <section class="input-section">
+            <label for="task-input" class="visually-hidden">New Task</label>
+            <input type="text" id="task-input" placeholder="What needs to be done?">
+            <button id="add-btn">Add</button>
+        </section>
+
+        <ul id="task-list" class="task-list">
+            <!-- New tasks show up here -->
+        </ul>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
